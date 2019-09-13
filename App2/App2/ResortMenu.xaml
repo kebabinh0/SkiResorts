@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.ResortMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    <RowDefinition Height="40"></RowDefinition>
+                    
+                    
+                </Grid.RowDefinitions>
+               
+
+                
+      
+                <Label Text="Welcome to currort selecton" Grid.Row="0" FontSize="Large" HorizontalTextAlignment="Center"></Label>
+                <Label Text="Find the best spot to ski with your family on your own. Just try our most popular spots and begin your winter adventure." Grid.Row="2" HorizontalTextAlignment="Center"></Label>
+                <Button x:Name="select_resort" Text="Select Resort" Grid.Row="4" Clicked="Select_resort_Clicked"></Button>
+                <Button x:Name="logout" Text="Log out" Grid.Row="5" Clicked="Logout_Clicked"></Button>
+                
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

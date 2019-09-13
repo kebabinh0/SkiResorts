@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.MakeReservaton">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Text="Your Reservation" Grid.Row="0" HorizontalTextAlignment="Center" TextColor="Black"></Label>
+                <Label x:Name="first_name" Text="" Grid.Row="1" FontSize="Small" TextColor="Black"></Label>
+                <Label x:Name="last_name" Text="" Grid.Row="2" FontSize="Small" TextColor="Black"></Label>
+                <Label x:Name="email" Text="" Grid.Row="3" FontSize="Small" TextColor="Black"></Label>
+                <Entry x:Name="number_of_people" Text="" Keyboard="Numeric" Placeholder="Enter number of people" Grid.Row="4" FontSize="Small" TextColor="Black" TextChanged="Number_of_people_TextChanged"></Entry>
+                <Label x:Name="people_alert" Text="Number of beetwen 1-10" IsEnabled="False" TextColor="Red" Grid.Row="5" FontSize="Micro" ></Label>
+                <Entry x:Name="days" Grid.Row="6" Text=""  Keyboard="Numeric" TextColor="Black" Placeholder="Enter number of days" FontSize="Small" TextChanged="Days_TextChanged"></Entry>
+                <Label x:Name="days_alert" Text="No longer that six days." IsEnabled="False" TextColor="Red" Grid.Row="7" FontSize="Micro"></Label>
+                <Label x:Name="price" Text="Price: EUR" Grid.Row="8" FontSize="Small" TextColor="Black"></Label>
+                <Button x:Name="save" Text="Make Resrvation" Grid.Row="9" FontSize="Small" Clicked="Save_Clicked"></Button>
+                <Button x:Name="cancel" Text="Cancel Reservation" Grid.Row="10" FontSize="Small" Clicked="Cancel_Clicked"></Button>
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

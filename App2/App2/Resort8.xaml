@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Resort8">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="85"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Courchevel-Meribel" HorizontalTextAlignment="Center" Grid.Row="0"></Label>
+            <Image Source="Assets/Courchevel.jpg"  Grid.Row="1"></Image>
+            <Label Text="Na kolejnym miejscu, z niewiele niższą liczbą gości, przekraczającą nieco 1,7 mln, plasuje się słynne, ekskluzywne Courchevel połączone w jeden kompleks narciarski z Meribel. Również i one należą do regionu Les Trois Valées. Legendarny jest już przepych i zasobność portfeli tutejszych gości, z których znaczna część przylatuje tutaj swoimi prywatnymi samolotami."
+                       HorizontalTextAlignment="Center" Grid.Row="2" FontSize="Micro">
+
+            </Label>
+            <Button x:Name="main_menu" Text="Main Menu" Grid.Row="3" Clicked="Main_menu_Clicked"></Button>
+            <Button x:Name="make_reservation" Text="Make Reservation" Grid.Row="4" Clicked="Make_reservation_Clicked"></Button>
+            <Button x:Name="next" Text="Next" Grid.Row="5" Clicked="Next_Clicked"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

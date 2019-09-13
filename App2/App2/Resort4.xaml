@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Resort4">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="85"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Les Arcs" HorizontalTextAlignment="Center" Grid.Row="0"></Label>
+            <Image Source="Assets/LesArcs.jpg"  Grid.Row="1"></Image>
+            <Label Text="Tuż za podium znalazła się druga stacja z regionu Paradiski – Les Arcs. Co roku zagląda tu około 2,1 mln narciarzy w poszukiwaniu śniegu, narciarskich wrażeń i niesamowitej scenerii alpejskich szczytów. I jak łatwo się domyśleć – wszystko to znajdują tu w najlepszym wydaniu. Ponad 200 km zróżnicowanych tras, ponad 60 wyciągów i kolejek górskich."
+                       HorizontalTextAlignment="Center" Grid.Row="2" FontSize="Micro">
+
+            </Label>
+            <Button x:Name="main_menu" Text="Main Menu" Grid.Row="3" Clicked="Main_menu_Clicked"></Button>
+            <Button x:Name="make_reservation" Text="Make Reservation" Grid.Row="4" Clicked="Make_reservation_Clicked"></Button>
+            <Button x:Name="next" Text="Next" Grid.Row="5" Clicked="Next_Clicked"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

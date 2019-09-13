@@ -1,0 +1,53 @@
+C:\Users\Bartosz\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.deps.json
+C:\Users\Bartosz\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll
+C:\Users\Bartosz\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.pdb
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.csproj.CoreCompileInputs.cache
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfoInputs.cache
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfo.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.dll
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.pdb
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\App2.csprojAssemblyReference.cache
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Register.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\AdminLogin.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Login.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\ResortMenu.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort1.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort10.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort2.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort3.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort4.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort5.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort6.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort7.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort8.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\Resort9.xaml.g.cs
+C:\Users\Bartosz\source\repos\App2\App2\App2\obj\Debug\netstandard2.0\MakeReservaton.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\bin\Debug\netstandard2.0\App2.deps.json
+D:\Nowy folder\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll
+D:\Nowy folder\App2\App2\App2\bin\Debug\netstandard2.0\App2.pdb
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.csprojAssemblyReference.cache
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Login.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\MakeReservaton.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Register.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort1.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort10.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort2.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort3.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort4.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort5.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort6.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort7.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort8.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\Resort9.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\ResortMenu.xaml.g.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.csproj.CoreCompileInputs.cache
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfoInputs.cache
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.AssemblyInfo.cs
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.dll
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\App2.pdb
+D:\Nowy folder\App2\App2\App2\obj\Debug\netstandard2.0\XamlC.stamp

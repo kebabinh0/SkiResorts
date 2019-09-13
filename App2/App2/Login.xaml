@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                    <RowDefinition Height="auto"></RowDefinition>
+                
+                </Grid.RowDefinitions>
+
+                <Label Text="Login into your account" HorizontalTextAlignment="Center" FontSize="Large" Grid.Row="0"></Label>
+                <Entry x:Name="username" Placeholder="Username" Grid.Row="1" TextColor="Black"></Entry>
+                <Entry x:Name="password" Placeholder="Password" Grid.Row="2" TextColor="Black" IsPassword="True"></Entry>
+                <Label x:Name="incorrect_credentials" Text="Username or Password not correct" Grid.Row="3" IsVisible="False"></Label>
+                <Button x:Name="login" Text="Login" Grid.Row="4" Clicked="Login_Clicked"></Button>
+                
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

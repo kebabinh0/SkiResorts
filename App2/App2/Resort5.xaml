@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Resort5">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"></RowDefinition>
+                <RowDefinition Height="100"></RowDefinition>
+                <RowDefinition Height="85"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+                <RowDefinition Height="35"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Text="Ischgl" HorizontalTextAlignment="Center" Grid.Row="0"></Label>
+            <Image Source="Assets/Ischgl.jpg"  Grid.Row="1"></Image>
+            <Label Text="Położone w zachodnim zakątku Tyrolu Ischgl dość późno weszło do gry na alpejskim rynku stacji narciarskich. Ale za to jak już weszło – to z przytupem! Ze swoimi 240 km tras zjazdowych uważane jest za największy pojedynczy ośrodek narciarski w Austrii. Rocznie odwiedza go 2 mln narciarzy, którzy szukają tu nie tylko wrażeń na tokach, ale także zabawy po jeździe."
+                       HorizontalTextAlignment="Center" Grid.Row="2" FontSize="Micro">
+
+            </Label>
+            <Button x:Name="main_menu" Text="Main Menu" Grid.Row="3" Clicked="Main_menu_Clicked"></Button>
+            <Button x:Name="make_reservation" Text="Make Reservation" Grid.Row="4" Clicked="Make_reservation_Clicked"></Button>
+            <Button x:Name="next" Text="Next" Grid.Row="5" Clicked="Next_Clicked"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

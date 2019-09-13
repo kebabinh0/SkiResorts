@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Register">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <Label Text="Registration Form" FontSize="Large" HorizontalTextAlignment="Center" Grid.Row="0" TextColor="Black"></Label>
+                <Entry x:Name="login" Text="" Placeholder="Enter Login" Grid.Row="1" FontSize="Micro" TextColor="Black"></Entry>
+                <Label x:Name="login_alert" Text="Login already used" FontSize="Micro" HorizontalTextAlignment="Center"  VerticalTextAlignment="Center" Grid.Row="2" IsVisible="False" TextColor="Red"></Label>
+                <Label x:Name="login_empty_alert" Text="Enter login." FontSize="Micro" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="2" IsVisible="False" TextColor="Red"></Label>
+                <Entry x:Name="password" IsPassword="True" Text="" Placeholder="Enter Password" Grid.Row="3" FontSize="Micro" TextColor="Black"></Entry>
+                <Label x:Name="password_alert" Text="Password must contain one big, one small letter and one number." FontSize="Micro" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="4" IsVisible="False" TextColor="Red"></Label>
+                <Entry x:Name="first_name" Text="" Placeholder="Enter Frist Name" Grid.Row="5" FontSize="Micro" TextColor="Black"></Entry>
+                <Entry x:Name="last_name" Text="" Placeholder="Enter Last Name" Grid.Row="6" FontSize="Micro" TextColor="Black"></Entry>
+                <Entry x:Name="email" Text="" Placeholder="Enter E-mail" Grid.Row="7" FontSize="Micro"  TextColor="Black"></Entry>
+                <Label x:Name="email_alert" Text="Use mail in format like abc@abc.abc" FontSize="Micro" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="8" IsVisible="False" TextColor="Red"></Label>
+                <Button x:Name="register" Text="Register" Grid.Row="9" Clicked="Register_Clicked"></Button>
+                
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

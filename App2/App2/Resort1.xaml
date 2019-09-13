@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Resort1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"></RowDefinition>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="85"></RowDefinition>
+                    
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <Label Text="La Plagne" HorizontalTextAlignment="Center" Grid.Row="0"></Label>
+                <Image Source="Assets/LaPlagne.jpg"  Grid.Row="1"></Image>
+                <Label Text="Zdecydowanym liderem jeśli chodzi o ilość przyjeżdżających tu narciarzy jest francuskie La Plagne.
+                       W ciągu ostatnich pięciu lat średnio przyjeżdżało tu prawie 2,5 miliona narciarzy rocznie! Położone niedaleko słynnego Albertville, gdzie odbyła się olimpiada w 1992 roku, dysponuje nowoczesną infrastrukturą i ponad 220 km tras zjazdowych."
+                       HorizontalTextAlignment="Center" Grid.Row="2" FontSize="Micro">
+                    
+                </Label>
+                <Button x:Name="main_menu" Text="Main Menu" Grid.Row="3" Clicked="Main_menu_Clicked"></Button>
+                <Button x:Name="make_reservation" Text="Make Reservation" Grid.Row="4" Clicked="Make_reservation_Clicked"></Button>
+                <Button x:Name="next" Text="Next" Grid.Row="5" Clicked="Next_Clicked"></Button>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
